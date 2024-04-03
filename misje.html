@@ -1,0 +1,2358 @@
+<!DOCTYPE html>
+    <html lang="pl">
+        <head>
+            <meta charset="UTF-8">
+            <title> Misje Gothica </title>
+            <link rel="stylesheet" href="./style.css">
+        </head>
+        <body>
+            <header>                
+                <section id="chose_gothic">
+                    <h2 class="title">Z której części chcesz poznać misje?</h2>
+                    <div class="contener">
+                        <div class="gothic1" onclick="scrollToSection('gothic1')" style="cursor: pointer;">Gothic Ⅰ</div>
+                        <div class="gothic2" onclick="scrollToSection('gothic2')" style="cursor: pointer;">Gothic ⅠⅠ</div>
+                        <div class="gothic3" onclick="scrollToSection('gothic3')" style="cursor: pointer;">Gothic ⅠⅠⅠ</div>                                                                 
+                    </div>
+                </section>
+            </header>
+            <main>
+                <div class="mission_text">
+                    <h1>Jak działają misje w świecie Gothic?</h1>
+                    <div>
+                        W świecie Gothic, struktura misji została zaprojektowana tak, aby dostarczyć graczowi nie tylko 
+                        linijnego doświadczenia fabularnego, ale także możliwości eksploracji, rozwijania postaci 
+                        oraz wpływania na otaczający świat. Misje w grze są podzielone na dwie główne kategorie: 
+                        misje fabularne i poboczne.
+                        <ol>
+                            <li>
+                                Misje Fabularne:
+                                <ul>
+                                    <li>
+                                        Postęp Fabularny: Misje fabularne są kluczowym elementem rozwijania 
+                                        głównej historii gry. Gracz wciela się w rolę bohatera, który poprzez 
+                                        wykonywanie misji fabularnych zdobywa informacje, rozwija fabułę oraz wpływa 
+                                        na losy świata.    
+                                    </li>
+                                    <li>
+                                        Wpływ na Świat: Wybory dokonywane przez gracza podczas misji fabularnych mogą 
+                                        mieć znaczący wpływ na dalszy rozwój fabuły, a także na postacie i frakcje w 
+                                        świecie gry. To, jak gracz reaguje na sytuacje i podejmuje decyzje, może 
+                                        skutkować zmianami w strukturze społecznej i politycznej Khorinis.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Misje Poboczne:
+                                <ul>
+                                    <li>
+                                        Eksploracja i Rozwój Postaci: Misje poboczne często oferują graczowi możliwość 
+                                        eksploracji terenu, zdobywania doświadczenia i rozwijania umiejętności postaci.
+                                        Mogą one być związane z pomocą mieszkańcom, polowaniem na potwory, 
+                                        poszukiwaniem skarbów, czy też rozwiązywaniem zagadek.
+                                    </li>
+                                    <li>
+                                        Immersion w Świecie Gry: Wiele misji pobocznych ma na celu zanurzenie gracza w 
+                                        świat gry, dostarczenie dodatkowych informacji na temat postaci i wydarzeń oraz 
+                                        wzbogacenie atmosfery. To mogą być zadania o charakterze społecznym, handlowym, 
+                                        czy też związane z historią lokalnych mieszkańców.
+                                    </li>
+                                </ul>                            
+                            </li>
+                            <li>
+                                Nieliniowość i Świat reagujący na decyzje:
+                                <ul>
+                                    <li>
+                                        Różnorodność Decyzji: Zarówno misje fabularne, jak i poboczne, często oferują 
+                                        wiele ścieżek rozwiązania. Gracz ma możliwość podejmowania decyzji, 
+                                        które wpływają na rozwój sytuacji i zmiany w świecie gry.
+                                    </li>
+                                    <li>
+                                        Konsekwencje Decyzji: Pewne misje poboczne mogą mieć niespodziewane skutki na 
+                                        dalsze etapy gry. Wybory gracza w jednej misji mogą wpłynąć na relacje z 
+                                        postaciami, dostępność innych zadań czy też zmiany w otoczeniu.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                    <section id="gothic1">
+                        <h2>Gothic Ⅰ</h2>
+                        <h3>Rozdział 1 <span class="collapsible-header"></span></h3>
+                        <table class="table" style="font-size: 85%; width: 100%;">
+                            <thead>
+                                <tr>
+                                    <th>Nazwa</th>
+                                    <th>Zleceniodawca</th>
+                                    <th>Nagroda</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td><b>Broń Baloro</b>
+                            </td>
+                            <td>Baloro
+                            </td>
+                            <td>
+                            <p>300 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Chata Krzykacza</b>
+                            </td>
+                            <td>Gorn
+                            </td>
+                            <td>
+                            <p>300 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Co się dzieje na bagnach?x</b>
+                            </td>
+                            <td>Kruk lub Lares
+                            </td>
+                            <td>
+                            <p>500 (jako cień) lub 750 (jako szkodnik) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Dostawa ziela dla Gomeza</b>
+                            </td>
+                            <td>Cor Kalom
+                            </td>
+                            <td>
+                            <p>400 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Handlarz zielem</b>
+                            </td>
+                            <td>Baal Isidro<br>Baal Kagan
+                            </td>
+                            <td>
+                            <p>500 do doświadczenia <br>200-300 bryłek rudy<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Nieznajomy</b>
+                            </td>
+                            <td>Po przeczytaniu Chromanina
+                            </td>
+                            <td>
+                            <p>3350 do doświadczenia <br>300 bryłek rudy, amulet witalności (przy zwłokach)<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Nosiwoda w służbie Lewusa</b>
+                            </td>
+                            <td>Lewus
+                            </td>
+                            <td>
+                            <p>0-400 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Nowi wyznawcy dla Bractwa</b>
+                            </td>
+                            <td>Baal Tondral
+                            </td>
+                            <td>
+                            <p>1000 do doświadczenia <br> Poparcie Baala Tondrala<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Nowy paser dla Fiska</b>
+                            </td>
+                            <td>Fisk
+                            </td>
+                            <td>
+                            <p>300 do doświadczenia <br> Poparcie Fiska<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Pozyskiwanie klientów</b>
+                            </td>
+                            <td>Baal Kagan
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>100 bryłek rudy<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Przepis Snafa</b>
+                            </td>
+                            <td>Snaf
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>3x potrawka z chrząszcza<br> Możliwość codziennego odbioru 3 potrawek z chrząszcza<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Przyjęcie do Nowego Obozu</b>
+                            </td>
+                            <td>Mordrag lub Lares
+                            </td>
+                            <td>
+                            <p>1950-3200 do doświadczenia <br>Lekki strój szkodnika<br> Przynależność do Nowego Obozu<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Przyjęcie do obozu Bractwa</b>
+                            </td>
+                            <td>Cor Kalom<br>Baal Cadar<br>Baal Orun<br>Baal Taran<br>Baal Parvez<br>Baal Kagan<br>Lester<br>Joru
+                            </td>
+                            <td>
+                            <p>1200-1700 do doświadczenia <br>Lekka zbroja nowicjusza<br> Przynależność do Obozu Bractwa<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Przyjęcie do Starego Obozu</b>
+                            </td>
+                            <td>Diego
+                            </td>
+                            <td>
+                            <p>1000-1450 do doświadczenia <br>Strój cienia<br> Przynależność do Starego Obozu<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Receptura Bractwa</b>
+                            </td>
+                            <td>Dexter
+                            </td>
+                            <td>
+                            <p>350 do doświadczenia <br>50-100 bryłek rudy<br> Poparcie Dextera<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Skrzynia Aarona</b>
+                            </td>
+                            <td>Snipes
+                            </td>
+                            <td>
+                            <p>150 do doświadczenia <br>Zawartość skrzyni Aarona<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Szopa Ulberta</b>
+                            </td>
+                            <td>Ulbert
+                            </td>
+                            <td>
+                            <p>75 do doświadczenia <br>Zawartość skrzyń<br>1x pierścień mocy<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Test zaufania</b>
+                            </td>
+                            <td>Diego
+                            </td>
+                            <td>
+                            <p>750 do doświadczenia <br> Możliwość dołączenia do Starego Obozu<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Topielec pod tamą</b>
+                            </td>
+                            <td>Homer
+                            </td>
+                            <td>
+                            <p>300 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Wytwórnia ziela</b>
+                            </td>
+                            <td>Cor Kalom
+                            </td>
+                            <td>
+                            <p>1250 do doświadczenia <br>95 bryłek rudy<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zadanie od Thorusa</b>
+                            </td>
+                            <td>Thorus
+                            </td>
+                            <td>
+                            <p>250-300 do doświadczenia <br> Poparcie Thorusa<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zaginiony strażnik</b>
+                            </td>
+                            <td>Zły<br>Fletcher<br>Snaf
+                            </td>
+                            <td>
+                            <p>250 do doświadczenia <br> Poparcie Złego<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zastępstwo dla Ghorima</b>
+                            </td>
+                            <td>Ghorim
+                            </td>
+                            <td>
+                            <p>400 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zbieracz Horacy</b>
+                            </td>
+                            <td>Horacy
+                            </td>
+                            <td>
+                            <p>0 do doświadczenia <br>Siła: +5<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zbiory bagiennego ziela</b>
+                            </td>
+                            <td>Baal Orun
+                            </td>
+                            <td>
+                            <p>1150-1200 do doświadczenia <br>1x zwój snu<br> Poparcie Baala Oruna<br>
+                            </p>
+                            </td></tr>
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                        <h3>Rozdział 2 <span class="collapsible-header"></span></h3>
+                        <table class="table" style="font-size: 85%; width: 100%;">
+                            <thead>
+                                <tr>
+                                    <th>Nazwa </th>
+                                    <th>Zleceniodawca</th>
+                                    <th data-sort-type="number" >Nagroda</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td><b>Kamień ogniskujący dla Guru</b>
+                            </td>
+                            <td>Lester
+                            </td>
+                            <td>
+                            <p>1000 do doświadczenia <br>50 bryłek rudy<br>1x amulet płomieni<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Wydzielina pełzaczy</b>
+                            </td>
+                            <td>Cor Kalom
+                            </td>
+                            <td>
+                            <p>5250-5500 do doświadczenia <br>6x mocne piwo<br> <b>Do wyboru:</b><br>* 1x esencja ducha<br>* 100 bryłek rudy<br>* 1x esencja życia<br>* 1x łomotacz<br>* 1x runa światła<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Almanach</b>
+                            </td>
+                            <td>Cor Kalom
+                            </td>
+                            <td>
+                            <p>2500 do doświadczenia <br>0-50 bryłek rudy<br> <b>Do wyboru:</b><br>*300 bryłek rudy<br>* 5x wyciąg magicznej energii<br>* 3x zwój snu<br>
+                            </p>
+                            </td></tr>
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                        <h3>Rozdział 3 <span class="collapsible-header"></span></h3>
+                        <table class="table" style="font-size: 85%; width: 100%;">
+                            <thead><tr>
+                            <th>Nazwa</th>
+                            <th>Zleceniodawca</th>
+                            <th >Nagroda</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td><b>Cmentarzysko orków</b>
+                            </td>
+                            <td>Cor Angar
+                            </td>
+                            <td>
+                            <p>2750 do doświadczenia <br>100 bryłek rudy<br>1x pierścień drewnianej skóry<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Lecznicze zioła dla Y'Beriona</b>
+                            </td>
+                            <td>Cor Angar
+                            </td>
+                            <td>
+                            <p>1500 do doświadczenia <br>Klucz do laboratorium<br>1x runa teleportacyjna do obozu na bagnie<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Plan ucieczki Nowego Obozu</b>
+                            </td>
+                            <td>Cor Angar
+                            </td>
+                            <td>
+                            <p>1500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Poszukiwania kamieni ogniskujących</b>
+                            </td>
+                            <td>Saturas
+                            </td>
+                            <td>
+                            <p>0 do doświadczenia <br>1000 bryłek rudy<br>5x esencja uzdrawiająca<br>7x wyciąg uzdrawiający<br>3x eliksir uzdrawiający<br>5x esencja magicznej energii<br>7x wyciąg magicznej energii<br>3x eliksir magicznej energii<br>5x napój szybkości<br>1x esencja siły<br>1x esencja zwinności<br>1x wyciąg życia<br>1x wyciąg ducha<br>1x napój potęgi<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Kamień z górskiej fortecy</b>
+                            </td>
+                            <td>Lester
+                            </td>
+                            <td>
+                            <p>3500 lub 4000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Kamień ze starego klasztoru</b>
+                            </td>
+                            <td>Gorn
+                            </td>
+                            <td>
+                            <p>3500 lub 4000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Kamień pod kręgiem</b>
+                            </td>
+                            <td>Milten
+                            </td>
+                            <td>
+                            <p>3500 lub 4000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Kamień z kanionu trolli</b>
+                            </td>
+                            <td>Diego
+                            </td>
+                            <td>
+                            <p>3500 lub 4000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                        <h3>Rozdział 4 <span class="collapsible-header"></span></h3>
+                        <table class="table" style="font-size: 85%; width: 100%;">
+                            <thead><tr>
+                            <th>Nazwa</th>
+                            <th>Zleceniodawca</th>
+                            <th>Nagroda</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td><b>Pomoc magów ognia</b>
+                            </td>
+                            <td>Saturas
+                            </td>
+                            <td>
+                            <p>1000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Wygnanie ze Starego Obozu</b>
+                            </td>
+                            <td>Bloodwyn lub Fletcher
+                            </td>
+                            <td>
+                            <p>0 do doświadczenia <br> Dołączenie do najemników lub magów wody<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Spotkanie</b>
+                            </td>
+                            <td>Diego
+                            </td>
+                            <td>
+                            <p>2000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Xardas Nekromanta</b>
+                            </td>
+                            <td>Saturas
+                            </td>
+                            <td>
+                            <p>2000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Wypędzony szaman orków</b>
+                            </td>
+                            <td>Xardas
+                            </td>
+                            <td>
+                            <p>2000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Droga do świątyni Śniącego</b>
+                            </td>
+                            <td>Xardas
+                            </td>
+                            <td>
+                            <p>2000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Poszukiwania ULU-MULU</b>
+                            </td>
+                            <td>Ur-Shak
+                            </td>
+                            <td>
+                            <p>15000 do doświadczenia <br>Ulu-Mulu<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zbroja z pancerzy pełzaczy</b>
+                            </td>
+                            <td>Wilk
+                            </td>
+                            <td>
+                            <p>3000 do doświadczenia <br>Zbroja z pancerzy pełzaczy<br>
+                            </p>
+                            </td></tr>
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                        <h3>Rozdział 5<span class="collapsible-header"></span></h3>
+                        <table class="table" style="font-size: 85%; width: 100%;">
+                            <thead><tr>
+                            <th>Nazwa</th>
+                            <th>Zleceniodawca</th>
+                            <th>Nagroda
+                            </th></tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td><b>Magiczny miecz URIZIEL</b>
+                            </td>
+                            <td>Xardas
+                            </td>
+                            <td>
+                            <p>7000 do doświadczenia <br>Naładowany Uriziel<br>lub<br>Fala Śmierci Uriziela<br>
+                            </p>
+                            </td></tr>
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                        <h3>Rozdział 6<span class="collapsible-header"></span></h3>
+                        <table class="table"  style="font-size: 85%; width: 100%;">
+                            <thead><tr>
+                            <th>Nazwa</th>
+                            <th>Zleceniodawca</th>
+                            <th>Nagroda
+                            </th></tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td><b>Przebudzenie Śniącego</b></td>
+                            <td>Xardas</td>
+                            <td><p>0 doświadczenia <br> Ukończenie gry</p>
+                            </td>
+                            </tr>    
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                    </section>
+                    <section id="gothic2">
+                        <h2>Gothic ⅠⅠ</h2>
+                        <h3>Rozdział 1 <span class="collapsible-header"></span></h3>
+                        <table class="table" style="font-size: 85%; width: 100%;">
+                            <thead><tr>
+                            <th>Nazwa
+                            </th>
+                            <th>Zleceniodawca
+                            </th>
+                            <th>Nagroda
+                            </th></tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td><b>Afera z zielem</b>
+                            </td>
+                            <td>Lord Andre
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>200 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Babo i ogród</b>
+                            </td>
+                            <td>Babo
+                            </td>
+                            <td>
+                            <p>150-350 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Bandyci na farmie Lobarta</b>
+                            </td>
+                            <td>Maleth
+                            </td>
+                            <td>
+                            <p>150 do doświadczenia <br>Zniżka na ubranie u Lobarta<br>3 butelki wina<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Bandyci w latarni morskiej Jacka</b>
+                            </td>
+                            <td>Jack
+                            </td>
+                            <td>
+                            <p>400 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Baranie kiełbasy</b>
+                            </td>
+                            <td>Gorax
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>2 zwoje leczenia lekkich ran<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Bezczelny złodziej</b>
+                            </td>
+                            <td>Jora
+                            </td>
+                            <td>
+                            <p>50 lub 150 (zależy od decyzji gracza) do doświadczenia <br>0 lub 100 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Błogosławieństwo bogów</b>
+                            </td>
+                            <td>Thorben
+                            </td>
+                            <td>
+                            <p>200 lub 250 (zależy od decyzji gracza) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Czarna skóra</b>
+                            </td>
+                            <td>Raoul
+                            </td>
+                            <td>
+                            <p>550-750 (zależy od rozdziału) do doświadczenia <br>3 eliksiry lecznicze<br>500 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Czeladnik z Khorinis</b>
+                            </td>
+                            <td>Matteo, Bosper, Harad, Constantino, Thorben
+                            </td>
+                            <td>
+                            <p>600 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Członek straży miejskiej</b>
+                            </td>
+                            <td>Lord Andre
+                            </td>
+                            <td>
+                            <p>400 do doświadczenia <br>Lekki pancerz straży<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Cztery wilki dla Pepe</b>
+                            </td>
+                            <td>Pepe
+                            </td>
+                            <td>
+                            <p>250 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Dobry wojownik</b>
+                            </td>
+                            <td>Cord
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Do dna</b>
+                            </td>
+                            <td>Randolph, Rukhar
+                            </td>
+                            <td>
+                            <p>200-400 (zależy od rozdziału) do doświadczenia <br> <i>Tylko do III rozdziału</i><br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Dostać się do górnego miasta</b>
+                            </td>
+                            <td>Lothar, Matteo, Rupert
+                            </td>
+                            <td>
+                            </td></tr>
+                            <tr>
+                            <td><b>Dostawa Baltrama</b>
+                            </td>
+                            <td>Baltram
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>Możliwość kupna 10 jabłek od Baltrama<br>50 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Dostawa wina</b>
+                            </td>
+                            <td>Gorax
+                            </td>
+                            <td>
+                            <p>0 lub 150 (zależy od decyzji gracza) do doświadczenia <br>Opcjonalnie: 2 zwoje światła + zwój leczenia lekkich ran + zwój tworzenia szkieletu goblina<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Eksperyment</b>
+                            </td>
+                            <td>Ignaz
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>Możliwość nauki warzenia mikstur<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Fałszywy posłaniec</b>
+                            </td>
+                            <td>Nagur
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>80 lub 120 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Farmer w potrzebie</b>
+                            </td>
+                            <td>Akil, Kati, Randolph
+                            </td>
+                            <td>
+                            <p>250-900 (zależy od decyzji gracza i rozdziału) do doświadczenia <br>Opcjonalnie: chleb, smażone mięso, woda<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Futra dla Bospera</b>
+                            </td>
+                            <td>Bosper
+                            </td>
+                            <td>
+                            <p>0 do doświadczenia <br>60 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Gdzie jest Peck?</b>
+                            </td>
+                            <td>Lord Andre
+                            </td>
+                            <td>
+                            <p>50 lub 100 (zależy od decyzji gracza) do doświadczenia <br>Zardzewiały krótki miecz lub dobry miecz (I-II rozdział) / rubinowe ostrze (III rozdział)<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Głodny myśliwy</b>
+                            </td>
+                            <td>Grom
+                            </td>
+                            <td>
+                            <p>50-250 (zależy od rozdziału) do doświadczenia <br>Możliwość nauki oprawiania zwierząt<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Gulasz</b>
+                            </td>
+                            <td>Thekla
+                            </td>
+                            <td>
+                            <p>450 do doświadczenia <br>Gulasz Thekli<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Informacje dla Garvella</b>
+                            </td>
+                            <td>Garvell
+                            </td>
+                            <td>
+                            <p>200-1000 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Jak się dostać do klasztoru</b>
+                            </td>
+                            <td>Pedro, Isgaroth, Ulf
+                            </td>
+                            <td>
+                            <p>250 do doświadczenia <br>Klucz do klasztoru Innosa<br>Szata nowicjusza<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Jak się dostać do miasta Khorinis</b>
+                            </td>
+                            <td>Maleth, strażnik południowej bramy
+                            </td>
+                            <td>
+                            <p>0-600 (zależy od sposobu) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Jeden z najemników</b>
+                            </td>
+                            <td>Lee, Torlof
+                            </td>
+                            <td>
+                            <p>400 do doświadczenia <br>Lekki pancerz najemnika<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Komnaty nowicjuszy</b>
+                            </td>
+                            <td>Parlan
+                            </td>
+                            <td>
+                            <p>300 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Krótka wycieczka do miasta</b>
+                            </td>
+                            <td>Karras
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>Zwój przyzwania wilka<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Krwawe puchary</b>
+                            </td>
+                            <td>Cassia
+                            </td>
+                            <td>
+                            <p>300 do doświadczenia <br>Do wyboru: 400 sztuk złota / 4 eliksiry lecznicze / pierścień życia (dodatek Noc Kruka)<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Kupieckie złoto</b>
+                            </td>
+                            <td>Jora
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>Miecz za darmo podczas zadania Miecz Alrika<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Kusza Dragomira</b>
+                            </td>
+                            <td>Dragomir
+                            </td>
+                            <td>
+                            <p>150 do doświadczenia <br>150 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Leniwy farmer</b>
+                            </td>
+                            <td>Till
+                            </td>
+                            <td>
+                            <p>50 lub 100 (zależy od decyzji gracza) do doświadczenia <br>Maks. 102 sztuk złota<br><i>Tylko do IV rozdziału</i><br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Listy gończe</b>
+                            </td>
+                            <td>Bandyta lub po przeczytaniu listu Brago
+                            </td>
+                            <td>
+                            <p>50-150 (zależy od rozdziału) do doświadczenia <br> <i>Tylko do III rozdziału</i><br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Łuk Bospera</b>
+                            </td>
+                            <td>Bosper po rozmowie z Regisem lub Bartokiem
+                            </td>
+                            <td>
+                            <p>150 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Matteo i Gritta</b>
+                            </td>
+                            <td>Matteo
+                            </td>
+                            <td>
+                            <p>100 lub 150 (zależy od decyzji gracza) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Miecz Alrika</b>
+                            </td>
+                            <td>Alrik
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Miecz Roda</b>
+                            </td>
+                            <td>Rod
+                            </td>
+                            <td>
+                            <p>150-250 (zależy od rozdziału) do doświadczenia <br>30 sztuk złota<br><i>Tylko do III rozdziału</i><br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Modlitwa za paladynów</b>
+                            </td>
+                            <td>Marduk
+                            </td>
+                            <td>
+                            <p>50 do doświadczenia <br>Do wyboru: +2% do walki bronią dwuręczną / 100 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Najazdy bandytów</b>
+                            </td>
+                            <td>Hakon
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>100 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Odpędzić straż</b>
+                            </td>
+                            <td>Torlof
+                            </td>
+                            <td>
+                            <p>200 lub 250 (zależy od decyzji gracza) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Oferta pokoju</b>
+                            </td>
+                            <td>Lee
+                            </td>
+                            <td>
+                            </td></tr>
+                            <tr>
+                            <td><b>Oko Innosa</b>
+                            </td>
+                            <td>Xardas
+                            </td>
+                            <td>
+                            <p>3450 do doświadczenia <br>Oko Innosa<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Opolos i biblioteka</b>
+                            </td>
+                            <td>Opolos
+                            </td>
+                            <td>
+                            <p>150-350 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Opolos i przepis</b>
+                            </td>
+                            <td>Opolos
+                            </td>
+                            <td>
+                            <p>50 do doświadczenia <br>Możliwość nauki siły<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Paczuszka pełna ziela</b>
+                            </td>
+                            <td>Lord Andre
+                            </td>
+                            <td>
+                            <p>100 lub 200 (zależy od decyzji gracza) do doświadczenia <br>200 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Paczuszka z zielem</b>
+                            </td>
+                            <td>Cipher
+                            </td>
+                            <td>
+                            <p>400-600 (zależy od rozdziału) do doświadczenia <br>10 łodyg bagiennego ziela<br>200 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Patelnia dla Hildy</b>
+                            </td>
+                            <td>Hilda
+                            </td>
+                            <td>
+                            <p>0-50 (zależy od czasu wykonania) do doświadczenia <br>Zniżka na ubranie u Lobarta<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Pierścień Constantina</b>
+                            </td>
+                            <td>Cassia
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>Członkostwo w gildii złodziei<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Polne bestie</b>
+                            </td>
+                            <td>Fester
+                            </td>
+                            <td>
+                            </td></tr>
+                            <tr>
+                            <td><b>Próba Ognia</b>
+                            </td>
+                            <td>po przeczytaniu księgi w klasztornej bibliotece
+                            </td>
+                            <td>
+                            <p>400 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Problemy Isgarotha</b>
+                            </td>
+                            <td>Isgaroth po rozmowie z Sergiem
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Problemy na farmie Lobarta</b>
+                            </td>
+                            <td>Lord Andre
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>220 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Prychająca istota</b>
+                            </td>
+                            <td>Gaan
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>Możliwość nauki usuwania rogów smoczych zębaczy<br>30 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Ścieżka wiernych</b>
+                            </td>
+                            <td>Pyrokar
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Siedem ziół</b>
+                            </td>
+                            <td>Neoras
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>Zwój pięści wichru<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Skopać tyłek Bullkowi</b>
+                            </td>
+                            <td>Pepe
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Słoneczny aloes</b>
+                            </td>
+                            <td>Sagitta
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>Możliwość nauki warzenia mikstur<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Służba społeczności</b>
+                            </td>
+                            <td>Parlan
+                            </td>
+                            <td>
+                            <p>0 do doświadczenia <br>Klucz do biblioteki klasztornej<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Szacunek</b>
+                            </td>
+                            <td>Torlof, Buster
+                            </td>
+                            <td>
+                            </td></tr>
+                            <tr>
+                            <td><b>Szalony Fellan</b>
+                            </td>
+                            <td>Alwin
+                            </td>
+                            <td>
+                            <p>50-250 (zależy od rozdziału) do doświadczenia <br>30 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Trening bojowy Babo</b>
+                            </td>
+                            <td>Babo
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>Możliwość nauki walki bronią dwuręczną<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Tworzenie runy</b>
+                            </td>
+                            <td>Ulthar
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Ubiór roboczy Lobarta</b>
+                            </td>
+                            <td>Lobart
+                            </td>
+                            <td>
+                            </td></tr>
+                            <tr>
+                            <td><b>Wielkie wyzwanie</b>
+                            </td>
+                            <td>Harad
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Wyzwanie Jarvisa</b>
+                            </td>
+                            <td>Jarvis
+                            </td>
+                            <td>
+                            <p>150-750 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Względy Canthara</b>
+                            </td>
+                            <td>Canthar
+                            </td>
+                            <td>
+                            <p>50-300 (zależy od decyzji gracza) do doświadczenia <br>Topór marynarski (od Canthara) lub piracki kordelas (od Sary)<br>0-200 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Za butelkę wina</b>
+                            </td>
+                            <td>Vino
+                            </td>
+                            <td>
+                            <p>50 do doświadczenia <br>Zniżka na ubranie u Lobarta<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zaginiony przepis</b>
+                            </td>
+                            <td>Neoras
+                            </td>
+                            <td>
+                            <p>50 do doświadczenia <br>Ekstrakt many<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zakazane pastwisko</b>
+                            </td>
+                            <td>Balthasar
+                            </td>
+                            <td>
+                            <p>200-600 (zależy od rozdziału) do doświadczenia <br>10 owczych skór<br> <i>w późniejszych rozdziałach można wykonać tylko jako najemnik lub łowca smoków</i><br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Za kilka ziół więcej</b>
+                            </td>
+                            <td>Cipher
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zanieść rzepy Hildzie</b>
+                            </td>
+                            <td>Lobart
+                            </td>
+                            <td>
+                            <p>50-100 (zależy od rozdziału) do doświadczenia <br> <i>Tylko do II rozdziału</i><br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zbrodnia Dyriana</b>
+                            </td>
+                            <td>Dyrian
+                            </td>
+                            <td>
+                            <p>150-350 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zebrać czynsz</b>
+                            </td>
+                            <td>Torlof
+                            </td>
+                            <td>
+                            <p>100 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zebrać rzepę z pola</b>
+                            </td>
+                            <td>Lobart
+                            </td>
+                            <td>
+                            <p>50 do doświadczenia <br>zniżka na ubranie u Lobarta<br>0-5 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zioła dla Constantina</b>
+                            </td>
+                            <td>Constantino
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Żyjąca skała</b>
+                            </td>
+                            <td>Serpentes
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Bandyci Cavalorna (Noc Kruka)</b>
+                            </td>
+                            <td>Cavalorn
+                            </td>
+                            <td>
+                            <p>150 do doświadczenia <br>0-50 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Człowiek z opaską na oku (Noc Kruka)</b>
+                            </td>
+                            <td>Greg
+                            </td>
+                            <td>
+                            <p>550-850 (zależy od rozdziału) do doświadczenia <br>80 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Gdzie są zaginieni ludzie? (Noc Kruka)</b>
+                            </td>
+                            <td>Vatras
+                            </td>
+                            <td>
+                            <p>400-800 (zależy od decyzji gracza) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Handlarz bronią dla bandytów (Noc Kruka)</b>
+                            </td>
+                            <td>Vatras
+                            </td>
+                            <td>
+                            <p>300-1150 (zależy od rozdziału) do doświadczenia <br>0-200 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Joe (Noc Kruka)</b>
+                            </td>
+                            <td>Hakon
+                            </td>
+                            <td>
+                            <p>250-1250 (zależy od rozdziału) do doświadczenia <br>opcjonalnie: 5 wytrychów<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Kamienie teleportacyjne (Noc Kruka)</b>
+                            </td>
+                            <td>Merdarion
+                            </td>
+                            <td>
+                            <p>300-500 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Kamienne tablice (Noc Kruka)</b>
+                            </td>
+                            <td>Vatras, Myxir
+                            </td>
+                            <td>
+                            <p>za każdą tablicę 30 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Lucia (Noc Kruka)</b>
+                            </td>
+                            <td>Nadja, Elvrich
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Magowie wody (Noc Kruka)</b>
+                            </td>
+                            <td>Cavalorn
+                            </td>
+                            <td>
+                            <p>300 lub 450 (zależy od decyzji gracza) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Napadnięci kupcy (Noc Kruka)</b>
+                            </td>
+                            <td>Erol
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>+1 punkt siły, możliwość nauki siły<br>możliwość handlu (m.in. eliksir życia, amulet siły)<br>30 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Piracki handel (Noc Kruka)</b>
+                            </td>
+                            <td>Baltram po rozmowie ze Skipem
+                            </td>
+                            <td>
+                            <p>150 do doświadczenia <br>opcjonalnie: możliwa zniżka na wejście do obozu piratów<br>10 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Pomoc dla Laresa (Noc Kruka)</b>
+                            </td>
+                            <td>Lares
+                            </td>
+                            <td>
+                            <p>50-150 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Portal (Noc Kruka)</b>
+                            </td>
+                            <td>Nefarius lub po uruchomieniu mechanizmu w kamiennym kręgu
+                            </td>
+                            <td>
+                            <p>800-1000 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Problemy ze strażą (Noc Kruka)</b>
+                            </td>
+                            <td>Farim
+                            </td>
+                            <td>
+                            <p>150 do doświadczenia <br>akwamaryn<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Riordian (Noc Kruka)</b>
+                            </td>
+                            <td>Saturas
+                            </td>
+                            <td>
+                            <p>50-150 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Stara chata Cavalorna (Noc Kruka)</b>
+                            </td>
+                            <td>Cavalorn lub po otwarciu jego sakiewki
+                            </td>
+                            <td>
+                            <p>600-750 (zależy od rozdziału) do doświadczenia <br>100 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Ułatwione przyjęcie do klasztoru (Noc Kruka)</b>
+                            </td>
+                            <td>Daron
+                            </td>
+                            <td>
+                            <p>400 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Ułatwione przyjęcie do najemników (Noc Kruka)</b>
+                            </td>
+                            <td>Lares, Cord
+                            </td>
+                            <td>
+                            <p>400 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Ułatwione przyjęcie do straży (Noc Kruka)</b>
+                            </td>
+                            <td>Lares
+                            </td>
+                            <td>
+                            <p>400 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Wodny Krąg (Noc Kruka)</b>
+                            </td>
+                            <td>Cavalorn
+                            </td>
+                            <td>
+                            <p>900-1300 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zaginieni ludzie (Noc Kruka)</b>
+                            </td>
+                            <td>Vatras
+                            </td>
+                            <td>
+                            <p>600-2350 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Złota misa Bromora (Noc Kruka)</b>
+                            </td>
+                            <td>Bromor
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>opcjonalnie: darmowa noc z Nadją<br>
+                            </p>
+                            </td></tr>
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                        <h3>Rozdział 2 <span class="collapsible-header"></span></h3>
+                        <table class="table" style="font-size: 85%; width: 100%;">
+                            <thead><tr>
+                            <th>Nazwa 
+                            </th>
+                            <th>Zleceniodawca
+                            </th>
+                            <th>Nagroda
+                            </th></tr></thead><tbody>
+                            <tr>
+                            <td><b>Dowody</b>
+                            </td>
+                            <td>Lord Hagen
+                            </td>
+                            <td>
+                            <p>500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Klątwa Bilgota</b>
+                            </td>
+                            <td>Bilgot
+                            </td>
+                            <td>
+                            <p>300 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Kopacze i ruda</b>
+                            </td>
+                            <td>Garond
+                            </td>
+                            <td>
+                            <p>900 do doświadczenia <br>jako najemnik 500 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Mięso</b>
+                            </td>
+                            <td>Engor
+                            </td>
+                            <td>
+                            <p>150 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Pazury zębacza</b>
+                            </td>
+                            <td>Lutero
+                            </td>
+                            <td>
+                            <p>100-250 (zależy od rozdziału) do doświadczenia <br>pierścień wiecznych zwycięstw (strażnik/najemnik) lub pusty kamień runiczny (mag ognia)<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Pierścień Tengrona</b>
+                            </td>
+                            <td>Tengron
+                            </td>
+                            <td>
+                            <p>150 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Polowanie na zębacze</b>
+                            </td>
+                            <td>Fajeth
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>jako najemnik 100 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Pomoc dla Marcosa</b>
+                            </td>
+                            <td>Marcos
+                            </td>
+                            <td>
+                            <p>150 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Sekstans</b>
+                            </td>
+                            <td>Ramirez
+                            </td>
+                            <td>
+                            <p>200 do doświadczenia <br>750 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Sprawa Fernanda</b>
+                            </td>
+                            <td>Fernando
+                            </td>
+                            <td>
+                            <p>150 do doświadczenia <br>pierścień żywotności (strażnik/najemnik) lub pusty kamień runiczny (mag ognia)<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Uratować Gorna</b>
+                            </td>
+                            <td>Milten
+                            </td>
+                            <td>
+                            <p>800 do doświadczenia <br>jako najemnik średni pancerz najemnika<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Wiadomość</b>
+                            </td>
+                            <td>Vatras
+                            </td>
+                            <td>
+                            <p>300-700 (zależy od rozdziału) do doświadczenia <br>do wyboru: zwój lodowej strzały / zwój leczenia lekkich ran / zwój światła<br>do wyboru: bryłka rudy / pierścień zręczności / szczaw królewski<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zbroja pełzacza</b>
+                            </td>
+                            <td>Wilk po rozmowie z Gestathem
+                            </td>
+                            <td>
+                            <p>0 do doświadczenia <br>zbroja z pancerzy pełzaczy<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Złe wieści</b>
+                            </td>
+                            <td>Jergan
+                            </td>
+                            <td>
+                            <p>100-250 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Złoto dla Brutusa</b>
+                            </td>
+                            <td>Brutus
+                            </td>
+                            <td>
+                            <p>100-250 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr></tbody><tfoot></tfoot>
+                        </table>
+                        <h3>Rozdział 3 <span class="collapsible-header"></span></h3>
+                        <table class="table" style="font-size: 85%; width: 100%;">
+                            <thead><tr>
+                            <th>Nazwa 
+                            </th>
+                            <th>Zleceniodawca
+                            </th>
+                            <th>Nagroda
+                            </th></tr></thead><tbody>
+                            <tr>
+                            <td><b>Bennet siedzi w więzieniu</b>
+                            </td>
+                            <td>Lares, Hodges
+                            </td>
+                            <td>
+                            <p>900-1000 (zależy od rozdziału) do doświadczenia <br>amulet życia i możliwość zostania paladynem (strażnik) / lekki pancerz łowcy smoków (najemnik) / amulet życia (mag ognia)<br> Gulasz Thekli<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Bimber</b>
+                            </td>
+                            <td>Ehnim
+                            </td>
+                            <td>
+                            <p>600 do doświadczenia <br> <i>Tylko w III rozdziale</i><br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Dokumenty</b>
+                            </td>
+                            <td>Babo
+                            </td>
+                            <td>
+                            <p>300 do doświadczenia <br>opcjonalnie: zwój leczenia lekkich ran<br>opcjonalnie: 121 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Fałszywe udziały w kopalni</b>
+                            </td>
+                            <td>Serpentes
+                            </td>
+                            <td>
+                            <p>2875-3875 (zależy od rozdziału) do doświadczenia <br>3000 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Ktoś coś zgubił?</b>
+                            </td>
+                            <td>Hanna
+                            </td>
+                            <td>
+                            <p>300 do doświadczenia <br>50, 75 lub 200 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Laska Maletha</b>
+                            </td>
+                            <td>Maleth
+                            </td>
+                            <td>
+                            <p>400 do doświadczenia <br>35 lub 300 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Leczenie Hildy</b>
+                            </td>
+                            <td>Lobart, Hilda
+                            </td>
+                            <td>
+                            <p>300 do doświadczenia <br>50 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Lokaj sędziego</b>
+                            </td>
+                            <td>Lee
+                            </td>
+                            <td>
+                            <p>1400 lub 1700 (zależy od decyzji gracza) do doświadczenia <br>800 lub 1200 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Pedro zdrajca</b>
+                            </td>
+                            <td>Gorax
+                            </td>
+                            <td>
+                            <p>4200 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Polowanie na smoki</b>
+                            </td>
+                            <td>Pyrokar
+                            </td>
+                            <td>
+                            <p>2000 do doświadczenia <br>1200 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Poszukiwacze</b>
+                            </td>
+                            <td>Xardas
+                            </td>
+                            <td>
+                            <p>13950-14350 (zależy od decyzji gracza i rozdziału) do doświadczenia <br>3200 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Potęga Gwiazd</b>
+                            </td>
+                            <td>Hyglas
+                            </td>
+                            <td>
+                            <p>300 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Rogi cieniostwora dla Bustera</b>
+                            </td>
+                            <td>Buster
+                            </td>
+                            <td>
+                            <p>za każdy róg 300 do doświadczenia, na koniec zadania 250 do doświadczenia <br>za każdy róg 300 lub 350 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Samotność i bezradność</b>
+                            </td>
+                            <td>Bengar
+                            </td>
+                            <td>
+                            <p>1500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Sprawa Diega</b>
+                            </td>
+                            <td>Diego
+                            </td>
+                            <td>
+                            <p>700 do doświadczenia <br>500 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Torlofa strach przed Złym</b>
+                            </td>
+                            <td>Torlof
+                            </td>
+                            <td>
+                            <p>300 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Wygnany farmer</b>
+                            </td>
+                            <td>Sekob
+                            </td>
+                            <td>
+                            <p>400 do doświadczenia <br>250 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zbezczeszczone kapliczki</b>
+                            </td>
+                            <td>Ulthar
+                            </td>
+                            <td>
+                            <p>1550-2250 (zależy od rozdziału) do doświadczenia <br>amulet mocy<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Złodzieje owiec</b>
+                            </td>
+                            <td>Akil
+                            </td>
+                            <td>
+                            <p>600 do doświadczenia <br>300 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Złoto Diega</b>
+                            </td>
+                            <td>Diego
+                            </td>
+                            <td>
+                            <p>600 do doświadczenia <br>
+                            </p>
+                            </td></tr></tbody><tfoot></tfoot>
+                        </table>
+                        <h3>Rozdział 4 <span class="collapsible-header"></span></h3>
+                        <table class="table" style="font-size: 85%; width: 100%;">
+                            <thead><tr>
+                            <th>Nazwa 
+                            </th>
+                            <th>Zleceniodawca
+                            </th>
+                            <th>Nagroda
+                            </th></tr></thead><tbody>
+                            <tr>
+                            <td><b>Amulet Angara</b>
+                            </td>
+                            <td>Angar
+                            </td>
+                            <td>
+                            <p>1100 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Bajer</b>
+                            </td>
+                            <td>Dar
+                            </td>
+                            <td>
+                            <p>600 do doświadczenia <br>do wyboru: 1200 sztuk złota / amulet zwinności<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Brak</b>
+                            </td>
+                            <td>Randolph
+                            </td>
+                            <td>
+                            <p>500 do doświadczenia <br>150 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Dwa lodowe golemy dla Sylvia</b>
+                            </td>
+                            <td>Sylvio
+                            </td>
+                            <td>
+                            <p>600 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Głód</b>
+                            </td>
+                            <td>Gerold
+                            </td>
+                            <td>
+                            <p>116-350 (zależy od decyzji gracza) do doświadczenia <br>50-350 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Hordy orkowych wojowników</b>
+                            </td>
+                            <td>Lord Hagen
+                            </td>
+                            <td>
+                            <p>6950-7000 (zależy od rozdziału) do doświadczenia <br>3750 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Hosh-Pak</b>
+                            </td>
+                            <td>Orik
+                            </td>
+                            <td>
+                            <p>600 do doświadczenia <br>do wyboru: eliksir siły / eliksir zręczności / 3 eliksiry lecznicze / 3 eliksiry many<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Jan i kuźnia</b>
+                            </td>
+                            <td>Jan
+                            </td>
+                            <td>
+                            <p>200-250 (zależy od rozdziału) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Kradzież</b>
+                            </td>
+                            <td>Keroloth
+                            </td>
+                            <td>
+                            <p>400 do doświadczenia <br>50 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Lobarta problem z orkami</b>
+                            </td>
+                            <td>Lobart
+                            </td>
+                            <td>
+                            <p>600 do doświadczenia <br>150 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Łowcy smoków</b>
+                            </td>
+                            <td>Automatycznie z początkiem rozdziału
+                            </td>
+                            <td>
+                            <p>2600 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Miecz Ferosa</b>
+                            </td>
+                            <td>Keroloth
+                            </td>
+                            <td>
+                            <p>400 do doświadczenia <br>możliwość nauki siły i zręczności<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Mikstura Neorasa ze smoczych jaj</b>
+                            </td>
+                            <td>Neoras
+                            </td>
+                            <td>
+                            <p>600 do doświadczenia <br>do wyboru: mikstura wydzieliny ze smoczych jaj / 3 eliksiry lecznicze / pierścień obrony<br>
+                            
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Muszę się stąd wydostać!</b>
+                            </td>
+                            <td>Talbin
+                            </td>
+                            <td>
+                            <p>600 do doświadczenia <br>bryłka rudy (paladyn/łowca smoków) lub pusty kamień runiczny (mag ognia)<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Pan Smoków</b>
+                            </td>
+                            <td>Finkregh lub ostatni ze smoków
+                            </td>
+                            <td>
+                            <p>4250 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Paskudna nora</b>
+                            </td>
+                            <td>Brutus
+                            </td>
+                            <td>
+                            <p>350 do doświadczenia <br>150 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Smocze jaja</b>
+                            </td>
+                            <td>Pandrodor lub pierwszy ze smoków
+                            </td>
+                            <td>
+                            <p>250 do doświadczenia + za każde jajo 350 do doświadczenia <br>za każde jajo 350 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Ur-Shak</b>
+                            </td>
+                            <td>Ur-Shak
+                            </td>
+                            <td>
+                            <p>1250 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zguba w ciemności</b>
+                            </td>
+                            <td>Udar
+                            </td>
+                            <td>
+                            <p>600 do doświadczenia <br>150 sztuk złota<br>
+                            </p>
+                            </td></tr></tbody><tfoot></tfoot>
+                        </table>
+                        <h3>Rozdział 5 <span class="collapsible-header"></span></h3>
+                        <table class="table" style="font-size: 85%; width: 100%;">
+                            <thead><tr>
+                            <th>Nazwa
+                            </th>
+                            <th>Zleceniodawca
+                            </th>
+                            <th>Nagroda
+                            </th></tr></thead><tbody>
+                            <tr>
+                            <td><b>Kto będzie dowodził moim okrętem?</b>
+                            </td>
+                            <td>Lee, Milten, Kardif, Jack, Jorgen, Torlof
+                            </td>
+                            <td>
+                            <p>2000-3000 (zależy od decyzji gracza) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Nie można podróżować bez załogi</b>
+                            </td>
+                            <td>Milten
+                            </td>
+                            <td>
+                            <p>4000-5000 (zależy od decyzji gracza) do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Potrzebuję okrętu</b>
+                            </td>
+                            <td>Automatycznie po przeczytaniu mapy morskiej
+                            </td>
+                            <td>
+                            <p>3750 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Powrót do wieży</b>
+                            </td>
+                            <td>Pyrokar
+                            </td>
+                            <td>
+                            <p>1000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Sekob tęskni za żoną</b>
+                            </td>
+                            <td>Sekob
+                            </td>
+                            <td>
+                            <p>500 do doświadczenia <br>650 sztuk złota<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Ucieczka Rosi</b>
+                            </td>
+                            <td>Rosi
+                            </td>
+                            <td>
+                            <p>1500 do doświadczenia <br>450 sztuk złota<br>
+                            </p>
+                            </td></tr></tbody><tfoot></tfoot>
+                        </table>
+                        <h3>Rozdział 6 <span class="collapsible-header"></span></h3>
+                        <table class="table" style="font-size: 85%; width: 100%;">
+                            <thead><tr>
+                            <th>Nazwa
+                            </th>
+                            <th>Zleceniodawca
+                            </th>
+                            <th>Nagroda
+                            </th></tr></thead><tbody>
+                            <tr>
+                            <td><b>Dwór Irdorath</b>
+                            </td>
+                            <td>Automatycznie z początkiem rozdziału
+                            </td>
+                            <td><p>0 doświadczenia</p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Moja załoga</b>
+                            </td>
+                            <td>Automatycznie z początkiem rozdziału
+                            </td>
+                            <td><p>0 doświadczenia</p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Powrót na okręt</b>
+                            </td>
+                            <td>Automatycznie po pokonaniu Smoka Ożywieńca
+                            </td>
+                            <td>
+                            <p>0 doświadczenia <br> Ukończenie Gry<br>
+                            </p>
+                            </td></tr></tbody><tfoot></tfoot>
+                        </table>
+                    </section>
+                    <section id="gothic3">
+                        <h2>Gothic ⅠⅠⅠ</h2>
+                        <h3>Misje Fabularne <span class="collapsible-header"></span></h3>
+                        <table class="table" style="font-size: 85%; width: 100%;">
+                            <thead><tr>
+                            <th>Nazwa 
+                            </th>
+                            <th>Zleceniodawca
+                            </th>
+                            <th>Nagroda
+                            </th></tr></thead><tbody>
+                            <tr>
+                            <td><b>Berło Varantu!</b>
+                            </td>
+                            <td>Xardas lub brak
+                            </td>
+                            <td>
+                            <p>2500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Boski artefakt z Trelis</b>
+                            </td>
+                            <td>Khabir
+                            </td>
+                            <td>
+                            <p>2500 do doświadczenia <br>Amulet Adanosa<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Dowiedz się dla Rhobara co planuje Xardas</b>
+                            </td>
+                            <td>Rhobar II
+                            </td>
+                            <td>
+                            <p>2500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Dowiedz się dla Zubena co planuje Xardas</b>
+                            </td>
+                            <td>Zuben
+                            </td>
+                            <td>
+                            <p>1000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Gdzie jest Guru?</b>
+                            </td>
+                            <td>Brak
+                            </td>
+                            <td>
+                            <p>0 do doświadczenia <br>Przedmioty uzyskane z pokonanych przeciwników<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Kostur Wiecznego Wędrowca!</b>
+                            </td>
+                            <td>Xardas
+                            </td>
+                            <td>
+                            <p>2500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Odszukaj kamień teleportacyjny, prowadzący do króla</b>
+                            </td>
+                            <td>Roland
+                            </td>
+                            <td>
+                            <p>2500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Odszukaj koronę</b>
+                            </td>
+                            <td>Brak
+                            </td>
+                            <td>
+                            <p>2500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Odszukaj szatę</b>
+                            </td>
+                            <td>Saturas
+                            </td>
+                            <td>
+                            <p>2500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Odszukaj święty pierścień magii!</b>
+                            </td>
+                            <td>Brak
+                            </td>
+                            <td>
+                            <p>2500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Odszukaj święty pierścień życia!</b>
+                            </td>
+                            <td>Brak
+                            </td>
+                            <td>
+                            <p>2500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Odszukaj wszystkie ogniste puchary magów ognia</b>
+                            </td>
+                            <td>Sebastian, Milten, Konrad, Treslott, Marius, Jerek
+                            </td>
+                            <td>
+                            <p>15000 do doświadczenia <br>+2 do reputacji u buntowników<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Oswobodź Myrtanę!</b>
+                            </td>
+                            <td>Innos
+                            </td>
+                            <td>
+                            <p>10000 do doświadczenia <br>+3 do reputacji u buntowników<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Otwórz bramę do nieznanej krainy!</b>
+                            </td>
+                            <td>Xardas
+                            </td>
+                            <td>
+                            <p>5000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Piąta świątynia</b>
+                            </td>
+                            <td>Myxir lub brak
+                            </td>
+                            <td>
+                            <p>2500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Udaj się z Xardasem do portalu</b>
+                            </td>
+                            <td>Xardas
+                            </td>
+                            <td>
+                            <p>2500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Uwolnij pustynię od władzy asasynów</b>
+                            </td>
+                            <td>Vatras
+                            </td>
+                            <td>
+                            <p>5000 do doświadczenia <br> (+12 500 dodatkowych punktów doświadczenia po ponownej rozmowie z Vatrasem)<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Wrzuć ogniste puchary do świętego ognia</b>
+                            </td>
+                            <td>Brak (pośrednio Milten)
+                            </td>
+                            <td>
+                            <p>12000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Za Beliara!</b>
+                            </td>
+                            <td>Zuben lub Beliar
+                            </td>
+                            <td>
+                            <p>5000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Za Innosa!</b>
+                            </td>
+                            <td>Rhobar II lub Innos
+                            </td>
+                            <td>
+                            <p>5000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zabij króla Rhobara</b>
+                            </td>
+                            <td>Beliar lub Xardas
+                            </td>
+                            <td>
+                            <p>5000 do doświadczenia <br>+5 do reputacji u asasynów<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zabij wodzów orków!</b>
+                            </td>
+                            <td>Beliar
+                            </td>
+                            <td>
+                            <p>10000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zabij Xardasa</b>
+                            </td>
+                            <td>Beliar
+                            </td>
+                            <td>
+                            <p>5000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zabij Zubena</b>
+                            </td>
+                            <td>Innos, Beliar lub Xardas
+                            </td>
+                            <td>
+                            <p>5000 do doświadczenia <br>+2 do reputacji u buntowników<br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Znajdź pięć artefaktów Adanosa!</b>
+                            </td>
+                            <td>Xardas
+                            </td>
+                            <td>
+                            <p>2500 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Znajdź Xardasa!</b>
+                            </td>
+                            <td>Brak
+                            </td>
+                            <td>
+                            <p>1250 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zniszcz pięć artefaktów Adanosa!</b>
+                            </td>
+                            <td>Xardas
+                            </td>
+                            <td>
+                            <p>5000 do doświadczenia <br>
+                            </p>
+                            </td></tr>
+                            <tr>
+                            <td><b>Zniszcz wszystkie główne obozy buntowników.</b>
+                            </td>
+                            <td>Brak
+                            </td>
+                            <td>
+                            <p>5000 do doświadczenia <br>
+                            </p>
+                            </td></tr></tbody><tfoot></tfoot>
+                        </table>
+                    </section>
+                </div>
+                <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+                <script src="Collapsible.js"></script>
+
+                <script src="ScrollTo.js"></script> 
+                <nav>
+                    <div class="returnButton">
+                        <a href="index.html">
+                            &lt; Powrót
+                        </a>
+                    </div>  
+                </nav> 
+            </main>
+        </body>
+    </html>

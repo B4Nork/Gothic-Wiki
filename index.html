@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html lang="pl">
+        <head>
+            <meta charset="UTF-8">
+            <title> Świat Gothica </title>
+            <link rel="stylesheet" href="./style.css">
+        </head>
+        <body>
+            <header>                
+                <div class="title">Witajcie na stronie Świat Gothic</div>  
+            </header>
+            <main>
+                <div class="contener">
+                    <nav>
+                        <div class="menu_slot">
+                            <h1>Menu</h1> 
+                            <ul class="list_menu">
+                                <li> <a href="history.html"> Historia świata Gothic </a></li>
+                                <li> <a href="potwory.html"> Bestiariusz </a></li>
+                                <li> <a href="misje.html"> Misje </a></li>
+                                <li> <a href="formularz.html"> Formularz kontaktowy</a></li>
+                            </ul>
+                        </div>                   
+                    </nav>
+                    <div id="image-container" class="initial-state">
+                        <img id="dynamic-imageC" src="../image/spiacyCieniostwor.png" alt="Image 1" style="width: 200px;
+                        height: 100px;">
+                        <img id="dynamic-imageB" src="../image/smiejacyBezi.png" alt="Image 1" style="width: 200px;
+                        height: 100px;">
+                    </div>
+
+                    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+                
+                    <script src="SlideToRight.js"></script>
+                </div>
+                <div class="contener">
+                    <a href="https://gothic.fandom.com/pl/wiki/Wieża_Xardasa_w_Górniczej_Dolinie">
+                        <img class="towerXardasa" src="../image/WieżaXardasa.png" alt="Obraz przedsawiająy Wieże Xardasa">
+                    </a>
+                    <div class="text_strony">
+                        Witaj na stronie poświęconej legendarnemu uniwersum trylogii Gothic! Ta strona stanowi niepowtarzalne miejsce dla 
+                        wszystkich entuzjastów tej epickiej serii gier, która wciąż zachwyca fanów na całym świecie. Gothic to nie tylko 
+                        zbiór gier komputerowych, to prawdziwy świat, w którym tajemnicze historie splatają się z magią, a bohaterowie 
+                        zmierzyć muszą się z trudnymi wyborami.<br><br>
+                        Trylogia Gothic, składająca się z 
+                        <div class="text-container" onmouseover="showImage(this)" onmouseout="hideImage(this)">
+                            Gothic I
+                            <img class="hover-image" src="../image/Gothic1.jpg" alt="Opis obrazu">
+                        </div>
+                        , 
+                        <div class="text-container" onmouseover="showImage(this)" onmouseout="hideImage(this)">
+                            Gothic II
+                            <img class="hover-image" src="../image/Gothic2.jpg" alt="Opis obrazu">
+                        </div>
+                        i 
+                        <div class="text-container" onmouseover="showImage(this)" onmouseout="hideImage(this)">
+                            Gothic III
+                            <img class="hover-image" src="../image/Gothic3.jpg" alt="Opis obrazu">
+                        </div>
+                        , przenosi graczy do fascynującego świata, 
+                        gdzie magia, mroczna atmosfera i bogata fabuła tworzą niezapomniane doświadczenia. Gracz wciela się w postać, 
+                        która staje przed wyzwaniami, odkrywając zrujnowane zamki, niebezpieczne lasy i tajemnicze jaskinie. Świat ten
+                        pełen jest potworów, magicznych stworzeń i intrygujących postaci, co sprawia, że każdy krok może być decydujący 
+                        dla dalszego rozwoju fabuły.<br><br>
+                        Na tej stronie znajdziesz obszerne informacje na temat potworów, misji, historii świata Gothic oraz wiele 
+                        ciekawostek związanych z tworzeniem tej kultowej serii. Przyjrzymy się także postaciom, które stały się legendą, 
+                        jak bohaterowie z kolonii lub niebezpieczni przeciwnicy, jak 
+                        <div class="text-container" onmouseover="showImage(this)" onmouseout="hideImage(this)">
+                            Cieniostwór
+                            <img class="hover-image" src="../image/Cieniostwór.jpg" alt="Opis obrazu">
+                        </div>
+                        czy
+                        <div class="text-container" onmouseover="showImage(this)" onmouseout="hideImage(this)">
+                            Smocze Zębacze
+                            <img class="hover-image" src="../image/SmoZeb.jpg" alt="Opis obrazu">
+                        </div>
+                        <br><br>
+                        Przygotuj się na podróż do krainy magii, gdzie tajemnice czekają na odkrycie, a przygoda nigdy się nie kończy. 
+                        Zachęcamy do eksploracji różnych zakątków strony, aby zgłębić tajniki świata Gothic i być na bieżąco z 
+                        najnowszymi informacjami. Gotowi na przygodę? Przekrocz wrota kolonii i rozpocznij swoją własną historię w 
+                        uniwersum Gothic!
+                    </div>
+                    <script src="ShowPicture.js"></script>
+                </div>
+            </main>
+        </body>
+    </html>

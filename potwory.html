@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+    <html lang="pl">
+        <head>
+            <meta charset="UTF-8">
+            <title> Potwory z Gothica </title>
+            <link rel="stylesheet" href="./style.css">
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+            <script src="ChangeImg.js"></script>
+        </head>
+        <body>
+            <header>                
+                <section id="chose_gothic">
+                    <h2 class="title">Z której części chcesz poznać potwory?</h2>
+                    <div class="contener">
+                        <div class="gothic1" onclick="scrollToSection('gothic1')" style="cursor: pointer;">Gothic Ⅰ</div>
+                        <div class="gothic2" onclick="scrollToSection('gothic2')" style="cursor: pointer;">Gothic ⅠⅠ</div>
+                        <div class="gothic3" onclick="scrollToSection('gothic3')" style="cursor: pointer;">Gothic ⅠⅠⅠ</div>                                                                 
+                    </div>
+                </section>
+            </header>
+            <main>
+                <div class="potwory_gothic">
+                    <section id="gothic1">
+                        <h2>Gothic Ⅰ</h2>
+                        <div class="potwory_text contener">
+                            <ul>
+                                <li><b><span class="nazwa_potwor">Chrząszcz</span></b> - niewielki owad bytujący przy odpadkach i porzuconych budynkach.</li>
+                                <li><b><span class="nazwa_potwor">Kretoszczur</span></b> - pozbawione włosia stworzenia zamieszkujące niewielkie jaskinie.</li>
+                                <li><b><span class="nazwa_potwor">Ścierwojad</span></b> - ptak nielot zamieszkujący równiny kolonii.</li>
+                                <li><b><span class="nazwa_potwor">Goblin</span></b> - humanoidalny potwór walczący pałką lub zardzewiałym mieczem.
+                                    <ul>
+                                        <li><b><span class="nazwa_potwor">Czarny goblin</span></b> - groźniejsza odmiana goblina walcząca kijem z gwoździem.</li>
+                                        <li><b><span class="nazwa_potwor">Goblin wojownik</span></b> - najgroźniejsza odmiana goblina walcząca maczugą.</li>
+                                    </ul>
+                                </li>
+                                <li><b><span class="nazwa_potwor">Krwiopijca</span></b> - latający owad bytujący przy zbiornikach wodnych.</li>
+                                <li><b><span class="nazwa_potwor">Wilk</span></b> - pospolity ssak zamieszkujący lasy.</li>
+                                <li><b><span class="nazwa_potwor">Troll</span></b> - ogromna bestia zamieszkująca kanion trolli.</li>
+                                <li><b><span class="nazwa_potwor">Cieniostwór</span></b> - drapieżny potwór zamieszkujący zacienione lasy i jaskinie.</li>
+                            </ul>
+                            <div class="raddle_pic">
+                                <img src="../image/Troll.jpg" style="height: 200px; width:200px;" alt="Zdjecie potwora którego wybierzesz">
+                                <p id="text_potwory1">Troll</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="gothic2">
+                        <h2>Gothic ⅠⅠ</h2>
+                        <div class="potwory_text contener">
+                            <ul>
+                                <li><b><span class="nazwa_potwor">Polne bestie</span></b> - ogromne insekty żerujące na polach uprawnych, przypominające stonkę ziemniaczaną. Są zmorą farmerów. Budują gniazda.</li>
+                                <li><b><span class="nazwa_potwor">Olbrzymie szczury</span></b> - ssaki zamieszkujące głównie kanały, jaskinie i inne ciemne, brudne miejsca.</li>
+                                <li><b><span class="nazwa_potwor">Wargi</span></b> - orkowe psy, szybkie i bardzo niebezpieczne. Można z nich pozyskiwać cenne skóry. Zamieszkują ciemne lasy oraz obozowiska orków.</li>
+                                <li><b><span class="nazwa_potwor">Smocze zębacze</span></b> - silniejsza odmiana zwykłych zębaczy. Występują w stadach, przeważnie w Górniczej Dolinie, z której w późniejszych rozdziałach przedostają się do dalszej części wyspy.</li>
+                                <li><b><span class="nazwa_potwor">Ogniki</span></b> - małe duszki unoszące się nad ziemią; trudno je trafić, jednak nie są zbyt groźne. Zamieszkują stare lasy oraz Górniczą Dolinę.</li>
+                                <li><b><span class="nazwa_potwor">Czarny troll</span></b> - potwór tak niebezpieczny, że aż zaznaczony na mapie wyspy (na całej wyspie występuje tylko jeden osobnik); można z niego pozyskać unikatową czarną skórę.</li>
+                                <li><b><span class="nazwa_potwor">Jaszczuroludzie</span></b> - gadopodobni wojownicy w służbie smoków, noszą czerwone zbroje i przeważnie atakują w grupach.</li>
+                                <li><b><span class="nazwa_potwor">Elitarni orkowie</span></b> - najsilniejsi przedstawiciele orków, używają orkowych mieczy wojennych oraz noszą niebieskie zbroje.</li>
+                            </ul>
+                            <div class="raddle_pic">
+                                <img src="../image/Ork_Elit.jpg" style="height: 200px; width:200px;" alt="Zdjecie potwora którego wybierzesz">
+                                <p id="text_potwory2">Elitarni orkowie</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="gothic3">
+                        <h2>Gothic ⅠⅠⅠ</h2>
+                        <div class="potwory_text contener">
+                            <ul>
+                                <li><b><span class="nazwa_potwor">Pustynny cieniostwór</span></b> - pustynny odpowiednik cieniostwora o pomarańczowej sierści.</li>
+                                <li><b><span class="nazwa_potwor">Krokodyl</span></b> - powolny i ociężały stwór występujący niemal tylko na pustyni Varant, najczęściej przy oazach. Kilka okazów występuje niedaleko wodospadów pod Silden.</li>
+                                <li><b><span class="nazwa_potwor">Golemy</span></b> - istoty magiczne. Występuje w trzech odmianach w zależności od żywiołu, który reprezentują:
+                                    <ul>
+                                        <li><b><span class="nazwa_potwor">Kamienny golem</span></b> - najsłabsza odmiana golema. Jedyna niekorzystająca z ataków dystansowych. W walce korzysta z silnych uderzeń swoimi masywnymi łapami. Występuje tylko na terenie Myrtany.</li>
+                                        <li><b><span class="nazwa_potwor">Lodowy golem</span></b> - lodowa odmiana golema o podobnym stylu walki, co kamienna wersja. Na odległość korzysta z lodowej lancy.</li>
+                                        <li><b><span class="nazwa_potwor">Ognisty golem</span></b> - ognista odmiana golema. Do walki na odległość używa kuli ognia.</li>
+                                    </ul>
+                                </li>
+                                <li><b><span class="nazwa_potwor">Ogr</span></b> - wytrzymały przeciwnik w walce wręcz, nigdy nie występuje pojedynczo. Walczy potężną bronią - ogrowym morgensternem. Gracz może go spotkać w każdej z trzech dostępnych krain.</li>
+                                <li><b><span class="nazwa_potwor">Smok</span></b> - znany z Gothic II ziejący ogniem gad ze zdolnością regeneracji. Nie jest tak silny, jak dawniej, lecz ciągle jest jednym z najrzadziej występujących oraz niebezpiecznych stworzeń. Spotkać go można w jaskiniach pod Cape Dun, na wzgórzach przy mieście Geldern i głęboko na pustyni Varant.</li>
+                            </ul>
+                            <div class="raddle_pic">
+                                <img src="../image/Golemy.jpg" style="height: 200px; width:200px;" alt="Zdjecie potwora którego wybierzesz">
+                                <p id="text_potwory3">Golemy</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <script src="ScrollTo.js"></script> 
+                <nav>
+                    <div class="returnButton">
+                        <a href="index.html">
+                            &lt; Powrót
+                        </a>
+                    </div>  
+                </nav> 
+            </main>
+        </body>
+    </html>
